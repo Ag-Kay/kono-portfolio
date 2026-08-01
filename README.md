@@ -1,8 +1,8 @@
 # Kono Agyemang Portfolio
 
-![Kono Agyemang-portfolio](https://i.ibb.co/m5bYtw6/responsive-showcase.png)
+![Kono Agyemang-portfolio]
 
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
+![ts]
 
 My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS and GSAP is used for styling and animations. Light & Dark themes supported. Dark is first priotic.
 
@@ -25,7 +25,7 @@ My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS an
 ## Lighthouse Score
 
 <a href="https://pagespeed.web.dev/analysis/https-devKono Agyemang-vercel-app/sgswm7q59t?form_factor=desktop">
-<img width="630" height="200px" alt="Kono Agyemang Portfolio Website Lighthouse Score" src="public/lighthouse.svg">
+<img width="630" height="200px" alt="Kono Agyemang Portfolio Website" src="public/lighthouse.svg">
 <a>
 
 ## Running Locally
