@@ -1,33 +1,53 @@
-# Kono Agyemang Portfolio
+# Kono Agyemang — Portfolio
 
-![Kono Agyemang-portfolio]
+Hi, I’m Kono, a software engineer focused on building thoughtful web experiences. This portfolio is where I share the projects, tools, and ideas I’ve been working on.
 
-![ts]
+I have 3+ years of experience building responsive applications and product-focused interfaces. I enjoy bringing designs to life with clean, maintainable frontend code, paying attention to the details that make a product feel polished and easy to use.
 
-My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS and GSAP is used for styling and animations. Light & Dark themes supported. Dark is first priotic.
+## A little about me
 
-## Features
+- I work primarily with React, Next.js, TypeScript, and Tailwind CSS.
+- I care about accessible, responsive interfaces and thoughtful user experiences.
+- I have a Bachelor of Science in Computer Science.
+- I’m open to software engineering opportunities, especially in frontend and product-focused web development.
 
-- Responsive Design 
-- Light & Dark themes 
-- Fully Accessible 
-- SEO Friendly 
+## What’s in the portfolio
 
-## Tech Stack
+- **About** — a little about my background and the tools I work with.
+- **Selected work** — projects I’ve built, including Travily and interactive web experiences.
+- **Contact** — ways to find me and get in touch.
+- **Light and dark themes** — because the details matter in either mode.
 
-**Frontend** - [NextJS](https://nextjs.org/), [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [Tailwind CSS](https://tailwindcss.com/)  
-**Animations** - [GSAP](https://greenstock.com/)  
-**Design & Prototype** - [Figma](https://figma.com/)  
-**State Management** - [Zustand](https://zustand-demo.pmnd.rs/)  
-**Deployment** - [Vercel](https://vercel.com/)
+## Built with
 
-## Lighthouse Score
+- [Next.js](https://nextjs.org/) and [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [GSAP](https://gsap.com/) for animation
+- [Zustand](https://zustand-demo.pmnd.rs/) for state
+- [Vercel](https://vercel.com/) for deployment
 
-<a href="https://pagespeed.web.dev/analysis/https-devKono Agyemang-vercel-app/sgswm7q59t?form_factor=desktop">
-<img width="630" height="200px" alt="Kono Agyemang Portfolio Website" src="public/lighthouse.svg">
-<a>
+## Run it locally
 
-## Running Locally
+You’ll need Node.js and pnpm. From the project directory:
 
-# kono-portfolio
+```bash
+pnpm install
+pnpm dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
+
+To create a production build:
+
+```bash
+pnpm build
+pnpm start
+```
+
+## Find me
+
+- [GitHub](https://github.com/Kono1889)
+- [LinkedIn](https://www.linkedin.com/in/kono1889/)
+
+Thanks for stopping by.
