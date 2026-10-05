@@ -143,15 +143,4 @@ const projects: Project[] = [
     githubApi:
       "https://api.github.com/repos/devKono Agyemang/Kono Agyemang.dev",
   },
-  {
-    id: 3,
-    title: "Mantine Boards",
-    description:
-      "Responsive Dashboards, perfect for admin dashboards, analytics platforms, or any project that requires a clean, modern interface.",
-    techStacks: ["RemixJS", "MantineUI"],
-    image: MantineBoards,
-    githubURL: "https://github.com/devKono Agyemang/mantine-boards",
-    liveURL: "https://mantine-boards.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/mantine-boards",
-  },
 ]
