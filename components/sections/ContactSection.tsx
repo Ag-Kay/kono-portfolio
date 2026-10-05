@@ -117,12 +117,15 @@ export default function ContactSection() {
               Kono Agyemang
             </div>
             <div className="dark:text-white text-sm">
-              Software Engineer • Frontend Developer
+              Software Engineer • Web Developer
             </div>
           </div>
           <div className="overflow-hidden flex justify-center items-center">
             <div className="title-animation w-full md:max-w-[80%] text-center dark:text-gray-400">
-              I&apos;m open to software engineering roles mostly web development, frontend engineering, and product-focused UI work. If you&apos;d like to collaborate or have a project in mind, feel free to reach out.
+              I&apos;m open to software engineering roles mostly web
+              development, frontend engineering, and product-focused UI work. If
+              you&apos;d like to collaborate or have a project in mind, feel
+              free to reach out.
             </div>
           </div>
           {/* <div className="end-title dark:text-white text-md">
