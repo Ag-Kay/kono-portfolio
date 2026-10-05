@@ -3,14 +3,9 @@
 import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
-import Loopy from "@/public/assets/projects/loopy.png"
+import Mac from "@/public/assets/projects/macbook.png"
 import MantineBoards from "@/public/assets/projects/mantine-boards.png"
-import MiroClone from "@/public/assets/projects/miro-clone.png"
-import MotionScape from "@/public/assets/projects/motion-scape.png"
-import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
-import TheRealHotels from "@/public/assets/projects/therealhotels.png"
-import ValentinCarousel from "@/public/assets/projects/valentin-carousel.png"
-import VSCode from "@/public/assets/projects/vscode.png"
+import Travily from "@/public/assets/projects/travily.png"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
@@ -78,8 +73,14 @@ export default function ProjectSection() {
           </RoughNotation>
           <div ref={elementRef} className="overflow-hidden ">
             <div className="qoutes-animation md:w-full text-center font-medium flex flex-col items-center">
-              <div>Building interfaces that look polished, perform well, and support real product goals.</div>
-              <div>Frontend engineering rooted in usability, clarity, and maintainability.</div>
+              <div>
+                Building interfaces that look polished, perform well, and
+                support real product goals.
+              </div>
+              <div>
+                Frontend engineering rooted in usability, clarity, and
+                maintainability.
+              </div>
             </div>
           </div>
         </div>
@@ -120,26 +121,27 @@ export interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "VSCode Portfolio",
+    title: "Travily",
     description:
-      "My portfolio website in vscode version developed with React and TypeScript.",
-    techStacks: ["ReactJS", "TypeScript"],
-    image: VSCode,
+      "Travily is an AI-powered travel planning platform that helps users discover destinations, explore points of interest, and generate personalized itineraries and budgets in one seamless experience.",
+    techStacks: ["ReactJS", "Javascript", "Node js"],
+    image: Travily,
     githubURL: "https://github.com/devKono Agyemang/vscode-portfolio",
-    liveURL: "https://devKono Agyemang-v1.vercel.app",
+    liveURL: "https://travily-frontend.vercel.app/",
     githubApi: "https://api.github.com/repos/devKono Agyemang/vscode-portfolio",
   },
 
   {
     id: 2,
-    title: "Portfolio V2",
+    title: "Macbook",
     description:
       "A refined and enhanced showcase of my work, designed to highlight my skills and projects with a sleek and modern interface.",
-    techStacks: ["NextJS", "ShadnUI", "GSAP"],
-    image: PortfolioV2,
+    techStacks: ["ReactJS", "GSAP", "ThreeJS"],
+    image: Mac,
     githubURL: "https://github.com/devKono Agyemang/Kono Agyemang.dev",
-    liveURL: "https://devKono Agyemang.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/Kono Agyemang.dev",
+    liveURL: "https://gsap-macbook-project.vercel.app/",
+    githubApi:
+      "https://api.github.com/repos/devKono Agyemang/Kono Agyemang.dev",
   },
   {
     id: 3,
@@ -151,60 +153,5 @@ const projects: Project[] = [
     githubURL: "https://github.com/devKono Agyemang/mantine-boards",
     liveURL: "https://mantine-boards.vercel.app",
     githubApi: "https://api.github.com/repos/devKono Agyemang/mantine-boards",
-  },
-  {
-    id: 4,
-    title: "Motion Scape",
-    description:
-      "Motion Scape is a visually dynamic website dedicated to the art of animations and transitions in web design.",
-    techStacks: ["NextJS", "GSAP", "TypeScript"],
-    image: MotionScape,
-    githubURL: "https://github.com/devKono Agyemang/motion-scape",
-    liveURL: "https://motion-gsap.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/motion-scape",
-  },
-  {
-    id: 5,
-    title: "Loopy",
-    description:
-      "Loopy is a modern video conferencing app designed for seamless virtual meetings with real-time video, audio, and chat features. Built for speed, simplicity, and collaboration.",
-    techStacks: ["ReactJs", "WebRTC", "Mediasoup", "Socket.io"],
-    image: Loopy,
-    githubURL: "https://github.com/devKono Agyemang/loopy",
-    liveURL: "https://loopy-ashen.vercel.app/",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/loopy",
-  },
-  {
-    id: 6,
-    title: "Valentin Carousel",
-    description:
-      "An animated carousel inspired by Valentin Awward Winning Website",
-    techStacks: ["ReactJs", "GSAP"],
-    image: ValentinCarousel,
-    githubURL: "https://github.com/devKono Agyemang/valentin-carousel",
-    liveURL: "https://valentin-carousel.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/valentin-carousel",
-  },
-  {
-    id: 7,
-    title: "TheRealHotels",
-    description:
-      "A Landing Website Inspired by awwarded website,therealhotels.com",
-    techStacks: ["ReactJs", "GSAP"],
-    image: TheRealHotels,
-    githubURL: "https://github.com/devKono Agyemang/therealhotels",
-    liveURL: "https://therealhotels.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/therealhotels",
-  },
-  {
-    id: 8,
-    title: "Miro Clone",
-    description:
-      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
-    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
-    image: MiroClone,
-    githubURL: "https://github.com/devKono Agyemang/realtime-miro-clone",
-    liveURL: "https://realtime-miro-clone.vercel.app",
-    githubApi: "https://api.github.com/repos/devKono Agyemang/realtime-miro-clone",
   },
 ]
